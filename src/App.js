@@ -4,15 +4,20 @@ import BtnToNaver from "./components/BtnToNaver";
 import ImgComponent from "./components/ImgComponent";
 import ClassComponent from "./components/ClassComponent";
 import FunctionalComponent from "./components/functionalComponent";
+import Inline from "./components/Inline";
+import EventHandler from "./components/EventHandler";
+import Example1 from "./components/Example1";
+import State from "./components/State";
+import State2 from "./components/State2";
+import Condition from "./components/Condition";
+import Emoji실습 from "./components/Emoji실습";
+import ClassState from "./components/ClassState";
+import StateAndVar from "./components/StateAndVar";
 
 function App() {
   return (
     <div className="App">
-      <MainHeader />
-      <ImgComponent />
-      <BtnToNaver />
-      <ClassComponent />
-      <FunctionalComponent />
+      <StateAndVar />
     </div>
   );
 }

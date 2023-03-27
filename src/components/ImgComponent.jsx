@@ -8,7 +8,7 @@ import woojoo from "../images/woojoo.jpg";
 // export default ImgComponent;
 
 // ImgComponent 클래스형 컴포넌트
-import React, { Component } from "react";
+import { Component } from "react";
 
 class ImgComponent extends Component {
   render() {

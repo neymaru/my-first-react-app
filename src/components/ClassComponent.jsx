@@ -2,7 +2,7 @@ import { Component } from "react";
 
 class ClassComponent extends Component {
   render() {
-    return <h1>Class Component 입니다!</h1>;
+    return <h1 className="test">Class Component 입니다!</h1>;
   }
 }
 
