@@ -13,11 +13,38 @@ import Condition from "./components/Condition";
 import Emoji실습 from "./components/Emoji실습";
 import ClassState from "./components/ClassState";
 import StateAndVar from "./components/StateAndVar";
+import StateProblem from "./components/StateProblem";
+import List from "./components/List";
+import PropsHeader from "./components/PropsHeader";
+import MultiProps from "./components/MultiProps";
+import ClassProps from "./components/ClassProps";
+import ListChild실습 from "./components/ListChild실습";
+import Map실습 from "./components/Map실습";
+import ItemList from "./components/ItemList";
+import CustomList from "./components/CustomList";
+import CustomObj from "./components/CustomObj";
+import ExampleChangeObj from "./components/ChangeObj데이터";
 
 function App() {
+  // const nameArr = ["뽀로로", "루피", "크롱이"];
+  // const pororoObj = {
+  //   name: "뽀로로",
+  //   age: "5",
+  //   nickName: "사고뭉치",
+  // };
+
   return (
     <div className="App">
-      <StateAndVar />
+      {/* <PropsHeader text="Hello, Props World!" />
+      <PropsHeader text="Bye, Props World!" />
+      <PropsHeader text="Welcome back, Props World!" />
+      <MultiProps text={str} href="https://naver.com" userID="tetz" /> */}
+      {/* <ClassProps name="뽀로로" age="5" nickName="사고뭉치" /> */}
+      {/* <List /> */}
+      {/* <ItemList /> */}
+      {/* <CustomList />
+      <CustomObj /> */}
+      <ExampleChangeObj />
     </div>
   );
 }
