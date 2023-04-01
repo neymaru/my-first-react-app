@@ -1,15 +1,5 @@
 .App {
-  /* text-align: center; */
-  display: flex;
-  justify-content: space-between;
-}
-
-.App h1 {
-  background-color: salmon;
-}
-
-.App span {
-  background-color: skyblue;
+  text-align: center;
 }
 
 .App-logo {
